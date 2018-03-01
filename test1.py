@@ -22,7 +22,6 @@ for command in commands:
     linesList=manStr.split("\n")
 
     #starting index
-    print(command)
     index=linesList.index("DESCRIPTION")
 
     #Build perfection by finding complete sentences and ending the description of the tool there.
